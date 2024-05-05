@@ -1,19 +1,19 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG1 from "../../assets/pizza_app.jpg";
+import IMG2 from "../../assets/instagram_app.jpg";
+import IMG3 from "../../assets/imdb_app.jpg";
+import IMG4 from "../../assets/voyager_app.jpg";
+import IMG5 from "../../assets/spit_faculty_app.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "My portfolio website",
-    github: "https://github.com/alokdubey02/My_Portfolio",
-    demo: "https://portfolio-alok-mauve.vercel.app/",
+    title: "Pizza website",
+    github: "https://github.com/alokdubey02/Pizza_website.git",
+    demo: "https://pizza-by-dubey-g.vercel.app/",
   },
   {
     id: 2,

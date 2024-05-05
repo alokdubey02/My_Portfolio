@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>.5+ year Experience</small>
+              <small>.6+ year Experience</small>
             </article>
 
             <article className="about__card">
@@ -34,15 +34,16 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Project</h5>
-              <small>7+ completed</small>
+              <small>8+ completed</small>
             </article>
           </div>
           <p>
             My name is Alok Kumar Dubey, and I cracked MAHCET with a score of
             99.76 percentile, earning my Master's degree in Computer
-            Applications (MCA) from SPIT. I have over 0.5 years of experience in
-            web development and have successfully completed more than 7
-            projects. Let's discuss how I can help you achieve your goals.
+            Applications (MCA) from SPIT. Doing intern and have over 0.6 years
+            of experience(intern) in web development and have successfully
+            completed more than 8 projects (Company+college+individual). Let's
+            discuss how I can help you achieve your goals.
           </p>
 
           <a href="#contact" className="btn btn-primary">
