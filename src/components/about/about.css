@@ -64,6 +64,53 @@
     color: var(--color-light);
 }
 
+/* ================= EDUCATION & CREDENTIALS ================= */
+.about__education {
+    margin-bottom: 2.2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(77, 181, 255, 0.2);
+    border-radius: 1.2rem;
+    padding: 1.4rem;
+    text-align: left;
+}
+
+.about__education h4 {
+    color: var(--color-primary);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about__education-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.about__edu-item {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.about__edu-icon {
+    color: var(--color-primary);
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.about__edu-item h5 {
+    color: var(--color-white);
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.about__edu-item small {
+    color: var(--color-light);
+    font-size: 0.78rem;
+}
+
 /* media queries medium devices*/
 
 @media screen and (max-width: 1024px) {
