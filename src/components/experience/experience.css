@@ -130,12 +130,17 @@
 
 .experience__skills-heading {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 /* media queries medium devices*/
 
 @media screen and (max-width: 1024px) {
+    .experience__skills-heading {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
     .experience__work-container {
         grid-template-columns: 1fr;
         width: 80%;
@@ -158,6 +163,10 @@
 /* media queries small devices*/
 
  @media screen and (max-width: 600px) {
+    .experience__skills-heading {
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+    }
     .experience__work-container {
         width: 100%;
         gap: 1.5rem;
