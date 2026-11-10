@@ -5,129 +5,122 @@ import { BiCheck } from "react-icons/bi";
 const Services = () => {
   return (
     <section id="services">
-      <h5>What we offer</h5>
+      <h5>What I Offer</h5>
       <h2>Services</h2>
 
       <div className="container services__container">
-        {/* ux/ui */}
+        {/* Frontend Architecture & UI */}
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Frontend Architecture & UI</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                User-centric and visually appealing designs tailored to your
-                brand.
+                Translating Figma designs into responsive, pixel-perfect React.js and Next.js interfaces.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Intuitive user experience to enhance engagement and
-                satisfaction.
+                Robust state management architectures using Redux Toolkit and modern React Hooks.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Prototyping and wireframing for seamless navigation and
-                functionality.
+                Responsive, accessible component design optimized across mobile, tablet, and desktop.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Responsive design for optimal performance across devices.</p>
+              <p>
+                Frontend performance optimization including code-splitting and asset minimization.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Continuous improvement based on user feedback and analytics.
+                Modern CSS styling with Tailwind CSS, Material UI, and scoped responsive stylesheets.
               </p>
             </li>
           </ul>
         </article>
-        {/* webDevlopment */}
+
+        {/* Fullstack Web Engineering */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Fullstack Web Engineering</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Customized web solutions tailored to your business requirements.
+                End-to-end product engineering from database schemas to client-side delivery.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Scalable and secure web applications built with modern
-                technologies.
+                Scalable and secure RESTful API development with Node.js, Express, and FastAPI.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Optimized performance for fast loading and smooth user
-                experience.
+                Relational and NoSQL database modeling with PostgreSQL, MongoDB, and MySQL.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Integration of third-party APIs and services for enhanced
-                functionality.
+                Complex workflow engines (exam testing platforms, course authoring, and referral ledgers).
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Regular updates and maintenance to ensure long-term reliability.
+                Clean, maintainable codebases adhering to modular and DRY software design patterns.
               </p>
             </li>
           </ul>
         </article>
-        {/* content creation */}
+
+        {/* API, Security & Payments */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>API, Security & Payments</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Compelling and engaging content tailored to your target
-                audience.
+                Razorpay payment gateway integration with webhooks, coupon engines, and invoices.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Creation of high-quality articles, blog posts, and social media
-                content.
+                Secure authentication with JWT, session management, and automated token expiry handling.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Professional copywriting and editing services for clear and
-                concise communication.
+                Granular Role-Based Access Control (RBAC) governing per-user endpoint permissions.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Content strategy development to drive brand awareness and
-                engagement.
+                Cloud deployments, custom DNS configuration, and build troubleshooting on Netlify and Vercel.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                SEO optimization to improve visibility and ranking on search
-                engines.
+                AI-assisted development accelerating feature prototyping, testing, and debugging.
               </p>
             </li>
           </ul>
